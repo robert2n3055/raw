@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Om oss - RAW Gym</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <video autoplay muted loop playsinline>
+    <source src="video/index_video3.mp4" type="video/mp4" />
+  </video>
+  <div class="overlay"></div>
+
+  <nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+<div class="social-icons">
+  <a href="https://www.instagram.com/raw_unity_power" target="_blank" aria-label="Instagram" class="instagram">
+    <img src="icons/instagram.svg" alt="Instagram">
+  </a>
+
+  <a href="https://www.facebook.com/Raw-Gym-61558308780245/" target="_blank" aria-label="Facebook" class="facebook">
+    <img src="icons/facebook.svg" alt="Facebook">
+  </a>
+</div>
+
+
+
+ <div class="menu" id="menu">
+  <a href="index.html">Startsida</a>
+  <a href="site.html">Hitta till RAW</a>
+  <a href="om-oss.html">Om oss</a>
+  <a href="FAQ.html">FAQ</a>
+  <a href="http://raw.wondr.se/register" target="_blank">Medlemskap</a>
+  <a href="kontakta.html">Kontakta oss</a>
+</div>
+
+<div class="text-box">
+<h1>Nå kul om raw?</h1>
+  <p>Vad för utrustning, vilka är välkommna och träna etc? casper pt:ar folk, hjälper med träningsprogram å sånt? :)</p>
+</div>
+
+
+  <div class="center-logo">
+    <img src="logo.png" alt="RAW Gym logotyp" />
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.hamburger').classList.toggle('active');
+      document.querySelector('#menu').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
